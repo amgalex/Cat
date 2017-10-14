@@ -45,13 +45,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseClasses.cs" />
-    <Compile Include="ChartControl.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="ChartControl.Designer.cs">
-      <DependentUpon>ChartControl.cs</DependentUpon>
-    </Compile>
     <Compile Include="ChildForm.cs">
       <SubType>Form</SubType>
     </Compile>

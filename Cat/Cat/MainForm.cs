@@ -83,13 +83,5 @@ namespace Cat
             AddMdiChild(f, Properties.Resources.application);
             f.Show();
         }
-
-        private void MainForm_Shown(object sender, EventArgs e)
-        {
-            ChildForm f = new ChildForm();
-            AddMdiChild(f, Properties.Resources.application);
-            f.Show();
-            f.WindowState = FormWindowState.Maximized;
-        }
     }
 }
