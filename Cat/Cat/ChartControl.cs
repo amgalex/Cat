@@ -22,7 +22,7 @@ namespace Cat
             // Pen pen = new Pens()
             base.OnPaint(pe);
             // pe.Graphics.DrawRectangle(SystemPens.ControlDark, 10, 10, 50, 50);
-
+            //
 
             double minQuote = 0.9;
             // 1.5 = this.Height
